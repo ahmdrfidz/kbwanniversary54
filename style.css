@@ -198,7 +198,7 @@ h6 {
 }
 
 .banner-overlay {
-	background: linear-gradient(to bottom, rgba(171, 47, 82, 0.82) 0%, #636FA4 100%);
+	background: linear-gradient(to bottom, rgba(99, 111, 164, 0.82) 0%, #E8CBC0 100%);
 	padding: 220px 0px 290px;
 }
 
@@ -228,7 +228,7 @@ h6 {
 }
 
 .section-padding {
-	padding: 120px 0px;
+	padding: 75px 0 15px 0;
 }
 
 .section-title {
@@ -236,7 +236,11 @@ h6 {
 }
 
 .section-img {
-	size: -100em;
+	width: 58%;
+	weight: auto;
+	height: auto;
+	margin: 0 auto;
+	display: block;
 }
 
 .section-title h3 {
@@ -276,6 +280,7 @@ h6 {
 
 .mb-50 {
 	margin-bottom: 50px !important;
+	padding: 0 10px;
 }
 
 .mb-100 {
@@ -302,6 +307,9 @@ h6 {
 
 .sub-title-paragraph h4 {
 	margin-bottom: 5px;
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 .sub-title-paragraph h5 {
@@ -311,16 +319,9 @@ h6 {
 .sub-title-paragraph p {
 	padding-top: 20px;
 	font-weight: 300;
-	font-size: 14px;
-	line-height: 25px;
-}
-
-.anchor-btn {
-	background: #ffaf53;
-	padding: 10px 20px;
-	color: #ffffff !important;
-	border-radius: 3px;
-	margin-top: 30px;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 1px;
 }
 
 .bg-grey {
@@ -690,12 +691,21 @@ h6 {
 	}
 
 	.section-title h3 {
-		margin-bottom: 12px;
+		margin: 25px 0 12px 0;
 		font-size: 25px;
 	}
 
 	.section-padding {
-		padding: 60px 0px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.section-img {
+		width: 90%;
+		weight: auto;
+		height: auto;
+		margin: 0 auto;
+		display: block;
 	}
 
 	.section-title {
